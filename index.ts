@@ -7,6 +7,5 @@ app.get('/', (req, res) => {
     res.send('Hello bitch')
 })
 app.listen(PORT, () => {
-    console.log('Escuchando el puerto');
-    
+    console.log('Escuchando el puerto', PORT);
 })
